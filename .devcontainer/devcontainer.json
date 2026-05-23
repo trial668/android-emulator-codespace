@@ -1,17 +1,6 @@
 {
-  "name": "Android Emulator",
+  "name": "Android Emulator (Ubuntu)",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-    "ghcr.io/devcontainers/features/java:1": {
-      "version": "17"
-    },
-    "ghcr.io/devcontainers/features/android-sdk:1": {
-      "platformTools": "latest",
-      "cmdlineTools": "latest",
-      "emulator": "yes",
-      "systemImage": "system-images;android-33;google_apis;x86_64"
-    }
-  },
   "hostRequirements": {
     "cpus": 4,
     "memory": "16gb"
